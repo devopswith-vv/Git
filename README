@@ -1,0 +1,153 @@
+🚀 **Complete Git Cheat Sheet (0 → Pro) | For DevOps Engineers & Beginners**
+
+If you're preparing for DevOps interviews or just starting with Git, this is a **simple + practical guide** covering everything from basics to real-world scenarios.
+
+---
+
+# 🧠 1. Git Basics (Think: Google Docs for Code)
+
+🔹 **Git** → Tracks changes in code
+🔹 **Repository** → Project folder with history
+🔹 **Working Directory** → Where you edit files
+🔹 **Staging Area** → Like a cart before checkout
+
+```bash
+git add file.txt
+git commit -m "Added feature"
+```
+
+🔹 **Branch** → Parallel version of code
+🔹 **HEAD** → Pointer to current branch
+
+---
+
+# 🌿 2. Branching & Merging
+
+👉 Work safely without breaking main code
+
+```bash
+git checkout -b feature
+git merge feature
+```
+
+🔹 **Merge Conflict** → Same file changed by multiple devs
+✔ Fix manually → `git add` → `git commit`
+
+🔹 **Rebase** → Cleaner history (linear commits)
+🔹 **Stash** → Save work temporarily
+
+```bash
+git stash
+git stash apply
+```
+
+---
+
+# ⚙️ 3. Commits & History
+
+🔹 Undo changes safely:
+
+```bash
+git reset --soft HEAD~1   # keep changes
+git revert <commit-id>    # safe rollback
+```
+
+🔹 Recover lost work:
+
+```bash
+git reflog
+```
+
+🔹 Track changes:
+
+```bash
+git diff
+git blame file.txt
+```
+
+---
+
+# 🌐 4. Remote Repositories
+
+```bash
+git clone <url>
+git push -u origin main
+```
+
+🔹 **Upstream branch** → links local & remote
+🔹 **Force push** → ⚠️ Use carefully
+
+---
+
+# 🔐 5. Best Practices
+
+✔ Small commits
+✔ Meaningful commit messages
+✔ Pull before push
+✔ Use `.gitignore`
+
+```bash
+node_modules/
+.env
+```
+
+---
+
+# ⚡ 6. Git in DevOps
+
+🔹 Push → triggers CI/CD
+🔹 Webhooks → event-based automation
+🔹 GitHub Actions → pipelines
+
+```yaml
+on: push
+```
+
+---
+
+# 🚨 7. Real-World Scenarios
+
+🔹 Wrong file committed:
+
+```bash
+git reset HEAD file.txt
+```
+
+🔹 Wrong code pushed:
+
+```bash
+git revert <commit>
+```
+
+🔹 Lost commit:
+
+```bash
+git reflog
+```
+
+🔹 Move commit:
+
+```bash
+git cherry-pick <id>
+```
+
+🔹 Hotfix in production:
+👉 Create branch → fix → merge → deploy
+
+---
+
+# 🎯 Git Workflow (Interview Answer)
+
+👉 Code → Add → Commit → Push → PR → Review → Merge → Deploy
+
+---
+
+# 💡 Final Tip
+
+You don’t need to memorize everything.
+Focus on:
+✔ Workflow
+✔ Key commands
+✔ Real scenarios
+
+
