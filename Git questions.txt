@@ -1,0 +1,107 @@
+🧠 1. Basics (1–20)
+What is Git?
+Difference between Git and other VCS?
+What is repository?
+What is working directory?
+What is staging area?
+What is commit?
+What is branch?
+What is HEAD?
+What is origin?
+What is clone?
+What is fork?
+What is pull?
+What is push?
+What is fetch?
+Difference between pull and fetch?
+What is git init?
+What is git add?
+What is git commit?
+What is git status?
+What is git log?
+🌿 2. Branching & Merging (21–40)
+What is branching in Git?
+Why branching is used?
+How to create branch?
+How to switch branch?
+What is git checkout vs switch?
+What is merge?
+Types of merge?
+What is fast-forward merge?
+What is recursive merge?
+What is merge conflict?
+How to resolve merge conflict?
+What is rebase?
+Merge vs rebase?
+When to use rebase?
+What is cherry-pick?
+What is squash?
+What is git stash?
+How to apply stash?
+What is detached HEAD?
+How to delete branch?
+⚙️ 3. Commits & History (41–55)
+How to amend commit?
+What is git reset?
+Types of reset (soft, mixed, hard)?
+What is git revert?
+Reset vs revert?
+How to undo last commit?
+How to undo pushed commit?
+What is reflog?
+What is git diff?
+How to see changes between commits?
+How to check who changed what?
+What is blame?
+What is tagging?
+Types of tags?
+How to create release tag?
+🌐 4. Remote Repositories (56–65)
+What is remote repository?
+What is origin?
+How to add remote?
+How to remove remote?
+What is upstream branch?
+How to push to remote?
+What is force push?
+When to use force push?
+What is git fetch origin?
+How to sync forked repo?
+🔐 5. Git Best Practices (66–75)
+What is branching strategy?
+What is Git Flow?
+What is trunk-based development?
+What is feature branch?
+What is pull request?
+What is code review?
+What is commit message best practice?
+How to avoid merge conflicts?
+How to manage large repos?
+What is .gitignore?
+⚡ 6. DevOps Integration (76–85)
+How Git integrates with CI/CD?
+What triggers pipeline in GitHub Actions?
+What is webhook?
+How to secure Git repo?
+What is GitHub Actions workflow?
+What is runner in GitHub?
+How branching affects CI/CD?
+What is versioning strategy?
+What is artifact versioning?
+How to handle secrets in Git?
+🚨 7. Real Scenarios (86–100) ⭐ MOST IMPORTANT
+You committed wrong file — what to do?
+You pushed wrong code — how to fix?
+Merge conflict during PR — steps?
+Need to rollback deployment — how?
+Lost commit — how to recover?
+Need to undo commit without losing changes?
+Two developers changed same file — solution?
+Need to move commit to another branch?
+Repo is very large — how to optimize?
+Sensitive data pushed — what to do?
+How to revert multiple commits?
+Pipeline failed due to code — fix flow?
+How to maintain clean commit history?
+How to handle hotfix in production?
+Explain your Git workflow in project
